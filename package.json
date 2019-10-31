@@ -33,7 +33,10 @@
     "*.(ts|tsx)": "prettier-tslint fix"
   },
   "devDependencies": {
+    "@types/enzyme": "^3.10.3",
     "customize-cra": "^0.8.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
     "gh-pages": "^2.1.1",
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
@@ -41,6 +44,7 @@
     "prettier": "^1.18.2",
     "prettier-tslint": "^0.4.2",
     "react-app-rewired": "^2.1.4",
+    "react-test-renderer": "^16.11.0",
     "tslint": "^5.20.0",
     "tslint-loader": "^3.5.4",
     "tslint-react": "^4.1.0",
