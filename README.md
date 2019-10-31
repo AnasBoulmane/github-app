@@ -1,3 +1,7 @@
+# Github react app
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/b149656513fb96321fa5/maintainability)](https://codeclimate.com/github/AnasBoulmane/github-app/maintainability)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
