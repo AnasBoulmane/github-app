@@ -1,0 +1,49 @@
+@import "@styles/var";
+
+.AppHeader {
+  @extend .container;
+  font-size: calc(12px + 1.2vmin);
+  position: relative;
+  color: white;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 184px;
+    top: -64.42px;
+    left: 50%;
+    z-index: -1;
+
+    background: #2473EA;
+    border-radius: 0 0 18px 18px;
+    transform: translateX(-50%);
+
+
+    @media (min-width: 768px) {
+      width: 522px;
+      height: 184px;
+      top: -64.42px;
+      left: -220px;
+
+      border-radius: 0 350px 94px 628px;
+      transform: rotate(15deg);
+    }
+  }
+}
+
+.AppTitle {
+  margin: 49px 0;
+}
+
+.Toys {
+  position: absolute;
+  top: 70px;
+  right: 1px;
+  z-index: -2;
+
+  @media (min-width: 768px) {
+    right: -225px;
+    top: -45.3px;
+  }
+}
