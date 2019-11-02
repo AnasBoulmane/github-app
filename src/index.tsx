@@ -4,6 +4,7 @@ import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";
 
 import "./assets/styles/normalize.css";
+import "./assets/styles/placeholder.css";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
