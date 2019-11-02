@@ -27,9 +27,11 @@ export const Repository = (props: IRepository) => {
         <h4 className={style.Name}>{name}</h4>
         <p className={style.Description}>{description}</p>
         <div className={style.Footer}>
-          <span>{starCount} (Star) </span>
+          <span>{starCount} (Stars) </span>
           <span>{issueCount} (Issues) </span>
-          <span>{dayjs(createdAt).fromNow(true)}</span>
+          <span>
+            {dayjs(createdAt).fromNow(true)} by {login}
+          </span>
         </div>
       </div>
     </a>
