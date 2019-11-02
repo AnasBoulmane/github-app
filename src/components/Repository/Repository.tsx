@@ -2,8 +2,6 @@ import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 import React from "react";
 
-import { Issues } from "../../svg/Issues";
-import { Star } from "../../svg/Star";
 import { IRepository } from "../../types/Repository";
 import PlaceHolder from "./PlaceHolderRepository";
 
