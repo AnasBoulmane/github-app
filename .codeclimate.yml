@@ -62,4 +62,6 @@ exclude_patterns:
 - "**/tests/"
 - "**/vendor/"
 - "**/*.d.ts"
-- "**/*.test.(ts|tsx)"
+- "**/*.test.ts"
+- "**/*.test.tsx"
+- "**/serviceWorker.ts"
